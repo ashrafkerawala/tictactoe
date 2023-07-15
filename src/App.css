@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.board-bg {
+  padding: 2rem;
+  width: 100%;
+}
+
+.board-wrapper {
+  display: grid;
+  grid-template: 1fr 1fr 1fr;
+}
+
+.square {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
